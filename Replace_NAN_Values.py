@@ -1,6 +1,6 @@
 import numpy as np
 
-arr = np.array([10, np.nan, 30, np.nan, 50])
+arr = np.array([10, np.nan, 40, np.nan, 50])
 
 result = np.nan_to_num(arr, nan=0)
 
